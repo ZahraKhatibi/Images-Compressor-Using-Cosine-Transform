@@ -1,5 +1,8 @@
 # Compressing Images using Cosine Transform
 
+![**Note:** Before compression, the file size was 31 MB, and after compression, it reduced to 10 MB.](pic.png)
+
+
 This is a Python project that demonstrates image compression using the Discrete Cosine Transform (DCT) and quantization. The DCT is applied to 8x8 blocks of the image, and quantization is used to reduce the amount of data required to represent each block. The compressed image is then decompressed to recover the original image.
 
 ## Prerequisites
@@ -31,8 +34,4 @@ The project performs the following steps:
 
 - The compression rate and zeros rate are calculated and displayed as metrics.
 - The distance between the original and reconstructed images is calculated using the L2 norm.
-
-# Example
-![](pic.png)
-
 
